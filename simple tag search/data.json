@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Item 1",
+        "tags": ["TagA", "TagB"]
+    },
+    {
+        "name": "Item 2",
+        "tags": ["TagB"]
+    },
+    {
+        "name": "Item 3",
+        "tags": ["TagA", "TagC"]
+    }
+]
