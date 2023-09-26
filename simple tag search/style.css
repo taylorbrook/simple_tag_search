@@ -16,4 +16,17 @@ select {
     margin-bottom: 20px;
 }
 
-/* Add more styles as needed */
+.tag-button {
+    background-color: #ddd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.tag-button.selected {
+    background-color: #007bff; /* Change to your preferred selected color */
+    color: #fff;
+}
+
