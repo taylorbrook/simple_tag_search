@@ -7,14 +7,15 @@
 </head>
 <body>
     <h1>Tag Filtering Example</h1>
-    <label for="tagSelect">Select a Tag:</label>
-    <select id="tagSelect">
+    <label for="tagSelect">Select Tags:</label>
+    <select id="tagSelect" multiple>
         <option value="All">All</option>
         <option value="TagA">TagA</option>
         <option value="TagB">TagB</option>
         <option value="TagC">TagC</option>
         <!-- Add more options as needed -->
     </select>
+    <button id="filterButton">Filter</button>
     <div id="itemContainer">
         <!-- Display filtered items here -->
     </div>
